@@ -8,7 +8,7 @@ app.get('/api', (req, res) => {
 })
 
 app.get('/api/health', (req, res) => {
-    res.status(200).send('OK')
+    res.status(200).send('OK (v1)')
 })
 
 app.listen(port, () => {
